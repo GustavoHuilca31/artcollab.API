@@ -14,12 +14,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+      <ProjectReference Include="..\Infraestructure\Infraestructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Domain\Domain.csproj" />
-      <ProjectReference Include="..\Infraestructure\Infraestructure.csproj" />
+      <Folder Include="Controllers\" />
     </ItemGroup>
 
 </Project>
