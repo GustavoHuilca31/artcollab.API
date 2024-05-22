@@ -17,8 +17,10 @@
     <ItemGroup>
       <Folder Include="Collaboration\Controllers\" />
       <Folder Include="Collaboration\Domain\" />
+      <Folder Include="Collaboration\Infrastructure\Model\Aggregates\" />
       <Folder Include="Content\Controllers\" />
       <Folder Include="Content\Domain\" />
+      <Folder Include="Content\Infrastructure\Model\Aggregates\" />
       <Folder Include="Monetization\Controllers\" />
       <Folder Include="Monetization\Domain\" />
       <Folder Include="Monetization\Infrastructure\Model\Aggregates\" />
@@ -29,6 +31,7 @@
       <Folder Include="Shared\Infraestructure\Repository\" />
       <Folder Include="User\Controllers\" />
       <Folder Include="User\Domain\" />
+      <Folder Include="User\Infrastructure\" />
     </ItemGroup>
 
 </Project>
