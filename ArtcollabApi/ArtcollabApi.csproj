@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>Application</RootNamespace>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,23 +16,24 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Collaboration\Controllers\" />
-      <Folder Include="Collaboration\Domain\" />
-      <Folder Include="Collaboration\Infrastructure\Model\Aggregates\" />
-      <Folder Include="Content\Controllers\" />
-      <Folder Include="Content\Domain\" />
-      <Folder Include="Content\Infrastructure\Model\Aggregates\" />
-      <Folder Include="Monetization\Controllers\" />
-      <Folder Include="Monetization\Domain\" />
-      <Folder Include="Monetization\Infrastructure\Model\Aggregates\" />
-      <Folder Include="Shared\Domain\Interfaces\" />
-      <Folder Include="Shared\Domain\Repository\" />
-      <Folder Include="Shared\Infraestructure\Context\" />
-      <Folder Include="Shared\Infraestructure\MySql\" />
-      <Folder Include="Shared\Infraestructure\Repository\" />
-      <Folder Include="User\Controllers\" />
-      <Folder Include="User\Domain\" />
-      <Folder Include="User\Infrastructure\" />
+      <Folder Include="Collaboration\Controller\" />
+      <Folder Include="Collaboration\Domain\Models\Aggregates\" />
+      <Folder Include="Collaboration\Domain\Models\Entities\" />
+      <Folder Include="Collaboration\Domain\Repository\" />
+      <Folder Include="Collaboration\Infrastructure\Repository\" />
+      <Folder Include="Content\Controller\" />
+      <Folder Include="Content\Domain\Model\Entities\" />
+      <Folder Include="Content\Domain\Repository\" />
+      <Folder Include="Content\Infrastructure\" />
+      <Folder Include="Monetization\Controller\" />
+      <Folder Include="Monetization\Domain\Models\Aggregates\" />
+      <Folder Include="Monetization\Domain\Models\Entities\" />
+      <Folder Include="Monetization\Infrastructure\Repository\" />
+      <Folder Include="User\Controller\" />
+      <Folder Include="User\Domain\Models\Aggregates\" />
+      <Folder Include="User\Domain\Models\Entities\" />
+      <Folder Include="User\Domain\Repository\" />
+      <Folder Include="User\Infrastructure\Repository\" />
     </ItemGroup>
 
 </Project>
